@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: 'John Doe',
+    title: 'Sam Beebe',
     description:
-      'John Doe is a lifestyle photographer based in San Francisco, CA',
+      '',
     url: 'https://gatsby-starter-amsterdam.netlify.com',
     author: 'John Doe',
-    intro: 'John Doe is a lifestyle photographer based in San Francisco, CA',
+    intro: ' ',
     menuLinks: [
       {
-        name: 'John Doe',
+        name: 'sam beebe',
         slug: '/',
       },
       {
@@ -26,7 +26,10 @@ module.exports = {
   plugins: [
     {
       resolve: 'gatsby-theme-amsterdam',
-      options: {},
+      options: {
+postsPerPage: 12,
+
+},
     },
   ],
 }
