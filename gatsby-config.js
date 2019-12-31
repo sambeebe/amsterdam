@@ -8,7 +8,7 @@ module.exports = {
     intro: ' ',
     menuLinks: [
       {
-        name: 'sam beebe',
+        name: 'sam bekjhebe',
         slug: '/',
       },
       {
